@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "digital";
+    src:url("digital-7.ttf");
+  }
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.comtainer {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 50px auto;
+    background: rgba(75, 85, 99, 1);
+    height: 280px;
+    color:rgba(238, 238, 238, 1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.main-heading {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.counter-box {
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    background: rgba(8, 0, 1, 1);
+
+}
+
+.increament-box {
+    list-style: none;
+
+}
+
+.inc-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: inherit;
+    color: inherit;
+    border: 3px solid white;
+
+}
+
+#score-H {
+    color: rgba(249, 79, 109, 1);
+    font-family:digital;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#score-G {
+    color: rgba(249, 79, 109, 1);
+    font-family: digital;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+}
